@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="GAm-M2-P8s">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Wia-3V-mH1">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -64,7 +64,7 @@
             </objects>
             <point key="canvasLocation" x="45" y="749"/>
         </scene>
-        <!--User Selection View Controller - 送信先を選択-->
+        <!--送信先を選択-->
         <scene sceneID="kD4-Bk-WT3">
             <objects>
                 <viewController id="thD-fl-7f6" customClass="TKDUserSelectionViewController" sceneMemberID="viewController">
@@ -110,7 +110,7 @@
             </objects>
             <point key="canvasLocation" x="445" y="51"/>
         </scene>
-        <!--Send View Controller - 画像を選択-->
+        <!--画像を選択-->
         <scene sceneID="kPs-TO-d0V">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="Ne5-Tp-ZDf" customClass="TKDSendViewController" sceneMemberID="viewController">
